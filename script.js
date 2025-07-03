@@ -2,7 +2,7 @@ const cartela = document.getElementById("cartela");
 const telefone = "5531975975047";
 
 // Substitua por números já vendidos
-const ocupados = [001,055];
+const ocupados = [1, 55];
 
 for (let i = 1; i <= 200; i++) {
   const num = document.createElement(ocupados.includes(i) ? "span" : "a");
